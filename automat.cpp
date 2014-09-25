@@ -39,7 +39,7 @@ int vervielfachen(int was, int wieoft) {		// diese liefert zwei werte (was und w
 void sagMal(int c) {					// unechte funktion ohne rueckgabewert
 
 	c = verdopple(c);				// funktionsaufruf mitgabe des wertes in der variable c
-													// und den rueckgabewert wiederum in var c speichern
+							// und den rueckgabewert wiederum in var c speichern
 
 	for(int x=0; x<c; x++) {			// kopf-gesteuerte schleife
 		cout<<"Guten Tag"<<endl;		// ausgabe so viel mal wie wert in c
